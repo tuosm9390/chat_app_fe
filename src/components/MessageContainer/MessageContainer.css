@@ -13,11 +13,13 @@
   padding: 2px 15px;
   font-size: 14px;
 }
+
 .my-message-container {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 5px;
 }
+
 .my-message {
   background-color: #f7e600;
   border-radius: 8px;
@@ -32,6 +34,11 @@
   /* margin-bottom: 5px; */
   align-items: center;
 }
+
+.your-message-container h6 {
+  margin: 0;
+}
+
 .your-message {
   background-color: white;
   border-radius: 8px;
